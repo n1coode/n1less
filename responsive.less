@@ -4,17 +4,15 @@
 
 // Desktop screen resolutions:
 // http://gs.statcounter.com/#desktop-resolution-ww-monthly-201407-201507
+@breakpoint-mobile-min:				320;
+@breakpoint-mobile-max:				667; //534
+@breakpoint-mobile:					@breakpoint-mobile-max;
+
+@breakpoint-tablet-min:				@breakpoint-mobile + 1;
+@breakpoint-tablet-max:				1280; //962;
+@breakpoint-tablet:					@breakpoint-tablet-max;
 
 @breakpoint-desktop:				@breakpoint-tablet + 1;
-
-@breakpoint-tablet:					@breakpoint-tablet-max;
-@breakpoint-tablet-max:				1280; //962;
-@breakpoint-tablet-min:				@breakpoint-mobile + 1;
-
-@breakpoint-mobile:					@breakpoint-mobile-max;
-@breakpoint-mobile-max:				667; //534
-@breakpoint-mobile-min:				320;
-
 
 // **********************************************************************
 //
